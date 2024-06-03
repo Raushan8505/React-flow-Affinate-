@@ -142,28 +142,28 @@ const initialEdges = [
     source: "3",
     target: "1",
     sourceHandle: "right",
-    animated: true,
+    // animated: true,
   },
   {
     id: "e1-4",
     source: "4",
     target: "1",
     sourceHandle: "right",
-    animated: true,
+    // animated: true,
   },
   {
     id: "e1-5",
     source: "1",
     target: "5",
     targetHandle: "left",
-    animated: true,
+    // animated: true,
   },
   {
     id: "e1-6",
     source: "1",
     target: "6",
     targetHandle: "left",
-    animated: true,
+    // animated: true,
   },
 ];
 

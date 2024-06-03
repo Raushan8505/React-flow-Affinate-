@@ -1,0 +1,75 @@
+.react-flow__node-zoom {
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.react-flow__node-zoom img {
+  pointer-events: none;
+}
+
+.placeholder div {
+  background: #eee;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 4px;
+}
+
+.placeholder div:last-child {
+  margin-bottom: 0;
+}
+.zoom-slider {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.placeholder {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+.zoom-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.zoom-controls label {
+  margin-right: 10px;
+}
+
+.zoom-scale {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.tick {
+  position: relative;
+  width: 1px;
+  height: 100%;
+  background: black;
+}
+
+.tick-label {
+  position: absolute;
+  top: 20px;
+  left: -1px;
+  font-size: 10px;
+}

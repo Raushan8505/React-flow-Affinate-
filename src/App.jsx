@@ -4,7 +4,6 @@ import ReactFlow, {
   useNodesState,
   useEdgesState,
   addEdge,
-  MiniMap,
   Controls,
 } from "reactflow";
 
